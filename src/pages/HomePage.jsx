@@ -17,7 +17,12 @@ function HomePage() {
     return (
         <div className="home-page">
         <section className="hero">
-            <h1 className="bg-h1-banner bg-cover bg-center text-black text-4xl p-6">mamayell</h1>
+            <div className="relative h-[240px]">
+                <div className="absolute inset-0 bg-h1-banner bg-contain bg-no-repeat bg-center aspect-[16/9] flex items-center justify-center"></div>
+                <h1 className="absolute top-4 left-4 text-black text-8xl font-bold z-10">
+                mamayell
+                </h1>
+            </div>
             <p>（ママエール）</p>
             <h2 className="text-2xl font-semibold mb-2">「大丈夫」を、専門家から。<br />
             〜ひとりじゃない育児に、医療と安心をそえて〜</h2>
@@ -38,7 +43,7 @@ function HomePage() {
             </div>
         </section>
         </div>
-  );
+    );
 }
 
 export default HomePage;

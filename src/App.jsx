@@ -7,6 +7,10 @@ import LoginPage from './pages/LoginPage';
 import ProfilePage from './pages/ProfilePage';
 import ContentPage from './pages/ContentPage';
 import ContentDetailPage from './pages/ContentDetailPage';
+import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
+import GalleryPage from './pages/GalleryPage';
+import ServicesPage from './pages/ServicesPage';
 
 // レイアウトコンポーネントのインポート
 import Header from "./components/layout/Header";
@@ -25,6 +29,10 @@ function App() {
             <Route path="/profile" element={<ProfilePage />} />
             <Route path="/content" element={<ContentPage />} />
             <Route path="/content/:id" element={<ContentDetailPage />} />
+            <Route path="/services" element={<ServicesPage />} />
+            <Route path="/gallery" element={<GalleryPage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/contact" element={<ContactPage />} />
             {/* 他のルートもここに追加 */}
           </Routes>
         </main>

@@ -12,24 +12,9 @@ const Footer = () => {
                         <p>東京都〇〇区〇〇1-2-3</p>
                         <p>TEL: 03-1234-5678</p>
                     </div>
-                    <div>
-                        <h3 className="text-xl font-semibold mb-4">営業時間</h3>
-                        <p>平日: 10:00 - 20:00</p>
-                        <p>土日祝: 10:00 - 18:00</p>
-                        <p>定休日: 毎週月曜日</p>
-                    </div>
-                    <div>
-                        <h3 className="text-xl font-semibold mb-4">メニュー</h3>
-                        <ul>
-                            <li>ヘアカット</li>
-                            <li>カラー</li>
-                            <li>パーマ</li>
-                            <li>トリートメント</li>
-                        </ul>
-                    </div>
                 </div>
                 <div className="mt-8 pt-4 border-t border-gray-700 text-center">
-                    <p>&copy; {new Date().getFullYear()} サロン名 All Rights Reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} mamayell All Rights Reserved.</p>
                 </div>
             </div>
         </footer>
