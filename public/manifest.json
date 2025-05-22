@@ -1,0 +1,10 @@
+{
+    "name": "Medical Mama Salon",
+    "short_name": "MamaSalon",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#FADADD",
+    "description": "Medical care support salon for mothers",
+    "icons": []
+}
