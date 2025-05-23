@@ -10,6 +10,7 @@ import ContentDetailPage from './pages/ContentDetailPage';
 import ContactPage from './pages/ContactPage';
 import GalleryPage from './pages/GalleryPage';
 import ServicesPage from './pages/ServicesPage';
+import SignupFormPage from './pages/SignupFormPage';
 
 // レイアウトコンポーネントのインポート
 import Header from "./components/layout/Header";
@@ -31,6 +32,7 @@ function App() {
             <Route path="/services" element={<ServicesPage />} />
             <Route path="/gallery" element={<GalleryPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/signup" element={<SignupFormPage />} />
             {/* 他のルートもここに追加 */}
           </Routes>
         </main>
