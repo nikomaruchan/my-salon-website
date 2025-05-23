@@ -14,7 +14,6 @@ const Header = () => {
                         <li><Link to="/" className="text-gray-600 hover:text-pink-500 transition">ホーム</Link></li>
                         <li><Link to="/services" className="text-gray-600 hover:text-pink-500 transition">サービス</Link></li>
                         <li><Link to="/gallery" className="text-gray-600 hover:text-pink-500 transition">ギャラリー</Link></li>
-                        <li><Link to="/about" className="text-gray-600 hover:text-pink-500 transition">サロンについて</Link></li>
                         <li><Link to="/contact" className="text-gray-600 hover:text-pink-500 transition">お問い合わせ</Link></li>
                     </ul>
                 </nav>

@@ -8,12 +8,12 @@ const ContentCard = ({ content }) => {
     return (
         <div className="bg-white border p-4 rounded shadow">
             <h3 className="text-xl font-semibold text-pink-500 mb-2">{title}</h3>
-            <p className="text-gray-700 mb-4">{description}</p>
+            <p className="text-gray-700 mb-4 whitespace-pre-line">{description}</p>
             <Link
                 to={`/content/${id}`}
                 className="text-blue-600 hover:text-blue-800 font-medium"
             >
-                詳細を見る
+                詳しく見る→
             </Link>
         </div>
     );

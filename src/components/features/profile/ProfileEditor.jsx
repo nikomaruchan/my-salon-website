@@ -9,11 +9,11 @@ const ProfileEditor = ({ defaultValues, onSubmit }) => {
     return (
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
             <div>
-                <label>名前</label>
+                <label>Yuka Omae</label>
                 <Input {...register('name')} />
             </div>
             <div>
-                <label>メール</label>
+                <label>mamayell@email.jp</label>
                 <Input {...register('email')} type="email" />
             </div>
             <Button type="submit">保存</Button>
